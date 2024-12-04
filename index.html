@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>A busca pelas criaturas magicas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="floresta.jpg" alt="">
+            <p>Em um dia qualquer, no parque da cidade, avistei algo pequeno e brilhante voando no céu. Nesse mesmo dia, a criatura brilhante e pequenina
+                sussurou algumas coordenadas para mim, logo após dizer: “descubra o que eu sou”</p>
+                <button class="btn-proximo" data-proximo="1">caverna brilhante</button>
+                <button class="btn-proximo" data-proximo="2">floresta iluminada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sua jornada na caverna se inicia, seus olhos se iluminam com o brilho dela. Você deve seguir seu caminho para encontrar pistas.</p>
+                <button class="btn-proximo" data-proximo="3">seguir para o lado direto</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Do lado direito, você encontra um brilho diferente trilhando um caminho.</p>
+                <button class="btn-proximo" data-proximo="5">seguir o caminho de brilho</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>você encontra mais sinais, mas agora são desenhos feitos a mão nas paredes.</p>
+            <button class="btn-proximo" data-proximo="7">continuar andando</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>você anda mais um pouco e encontra um livro que explica toda a origem e especie das fadas. Você desvendou o mistério.</p>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sua jornada se inicia no começo da floresta, seus olhos buscam por um caminho para seguir. Você deve continuar para achar pistas sobre o misterio.</p>
+            <button class="btn-proximo" data-proximo="4">trilhar o caminho reto</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>seguindo reto você encontra um caderno. Nele as palavras “você está chegando perto” estão escritas.</p>
+            <button class="btn-proximo" data-proximo="6">continuar andando</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>andando, você encontra um tunel que parece dar em uma caverna.</p>
+            <button class="btn-proximo" data-proximo="8">entrar no tunel</button>
+            <button class="btn-proximo" data-proximo="9">ir embora.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>você anda mais um pouco e encontra um livro que explica toda a origem e especie das fadas. Você desvendou o mistério.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>por pouco você não mata a sua curiosidade.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
